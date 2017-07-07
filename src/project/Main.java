@@ -15,7 +15,15 @@ public class Main {
 		hll.math();
 		
 		//주사위 게임 만들기
+		System.out.println("주사위 게임을 시작합니다.");
+		DiceGame DG = new DiceGame();
+		int userValue = DG.makeDiceNumber();
+		int comValue = DG.makeDiceNumber();
+		System.out.println("USER :" + userValue);
+		System.out.println("COM :" + comValue);
+		if(userValue > comValue){
 		
+		}
 	}
 
 
