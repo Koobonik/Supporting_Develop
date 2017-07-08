@@ -21,6 +21,16 @@ public class Main {
 		System.out.println(userValue);
 		System.out.println(comValue);
 		
+		
+		//계산기 만들기
+		Scanner scanner= new Scanner(System.in);
+		
+		String oper = "+";
+		int input1 = 10;
+		int inpuu2 = 100;
+		
+		double result = SimpleCalculator.plus(input1, input2);
+		System.out.println(result);
 	}
 
 
