@@ -20,7 +20,7 @@ public class Main {
 		int userValue=DG.makeDiceNumber();//주사위 숫자 생성
 		int comValue=DG.makeDiceNumber();
 		System.out.println("유저의 주사위 숫자 : "+userValue);
-		System.out.println("커퓨터의 주사위 숫자 : "+comValue);
+		System.out.println("컴퓨터의 주사위 숫자 : "+comValue);
 		
 		
 		//계산기 만들기
@@ -33,8 +33,12 @@ public class Main {
 		
 		double result = SimpleCalculator.calc(oper, input1, input2);
 		
-		//결과 출력
+		//결과출력
 		System.out.println(result);
+		
+		//배열 문제 숫자 10개 선언 및 임의의 수 넣기 + 그중 제일 작은수 찾기
+		Ten_Array.randomNumber();
+		
 	}
 
 
