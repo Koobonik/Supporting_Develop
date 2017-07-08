@@ -1,6 +1,19 @@
 package project;
-
+import java.util.Scanner;
 public class SimpleCalculator{
+	static void SimpleCalculator_logic(){
+		Scanner scanner= new Scanner(System.in);
+		System.out.println("어떤 계산을 하실건가요?");
+		String oper = scanner.nextLine();
+		System.out.println("숫자 두개를 입력해주세요.");
+		double input1 = scanner.nextDouble();
+		double input2 = scanner.nextDouble();
+		double result = SimpleCalculator.calc(oper, input1, input2);
+		//결과출력
+		System.out.println(result);
+	}
+	
+	
 	static double calc(String oper, double input1, double input2){
 		double result = 0;
 		switch(oper){
