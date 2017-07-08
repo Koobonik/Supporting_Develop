@@ -31,22 +31,9 @@ public class Main {
 		double input1 = scanner.nextDouble();
 		double input2 = scanner.nextDouble();
 		
-		double result = 0;
+		double result = SimpleCalculator.calc(oper, input1, input2);
 		
-		switch(oper){
-			case "+":
-				result = SimpleCalculator.plus(input1, input2);//double 형 데이터가 들어가므로 변수도 double 형 이어야 함
-			break;
-				case "-":
-				result = SimpleCalculator.minus(input1, input2);
-				break;
-				case "x":
-				result = SimpleCalculator.multi(input1, input2);
-				break;
-				case "/":
-				result = SimpleCalculator.div(input1, input2);
-				break;
-		}
+		//결과 출력
 		System.out.println(result);
 	}
 
