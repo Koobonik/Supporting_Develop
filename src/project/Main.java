@@ -20,6 +20,8 @@ public class Main {
 		//배열 문제 숫자 10개 선언 및 임의의 수 넣기 + 그중 제일 작은수 찾기
 		Ten_Array.randomNumber();
 		
+		
+		
 	}
 
 

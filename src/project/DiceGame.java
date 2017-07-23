@@ -8,5 +8,11 @@ public class DiceGame{
 		int value = (int)(Math.random()*6+1);
 		return value;
 	}
+	static void DiceGame_logic(){
+		int userValue=DiceGame.makeDiceNumber();//주사위 숫자 생성
+		int comValue=DiceGame.makeDiceNumber();
+		System.out.println("유저의 주사위 숫자 : "+userValue);
+		System.out.println("컴퓨터의 주사위 숫자 : "+comValue);
+	}
 	
 }
